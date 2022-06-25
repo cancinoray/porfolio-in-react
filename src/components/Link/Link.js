@@ -6,11 +6,11 @@ function Link({url, title}) {
 
 		 <a
           className="App-link"
-          href="https://reactjs.org"
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {title}
 	     </a>
 
 
